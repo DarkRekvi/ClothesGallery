@@ -1,0 +1,247 @@
+html {
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-image:url("wp7159903-minimalistic-scenery-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  padding:0;
+  background-color: black;
+  font-family: "Roboto";
+}
+
+.content{
+  margin-left:20%;
+  margin-right: 20%;
+  margin-top:5%;
+  background-color: rgba(255,255,255,0.5);
+  border:solid;
+  border-width: 1px;
+}
+
+.pre-main{
+  font-size:30px;
+  text-align: center;
+}
+
+.main {
+  font-size:60px;
+  text-align: center;
+}
+
+.centered{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+  display: grid;
+}
+
+.gridder{
+  display:block;
+}
+
+.gridder-inside{
+  font-size:25px;
+}
+
+.topnav {
+    background-color: rgba(0,0,0,0.8);
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:14px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.footer {
+    padding: 2px;
+    text-align: center;
+    background: #4CAF90;
+  color:white;
+  margin-top:20px;
+}
+
+.main-img {
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.button-1{
+  background-color:#4CAF50;
+  width:150px;
+  font-size:20px;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color:white;
+  margin-top:20px;
+  margin-bottom:5px;
+}
+
+.button-1:after{
+  background-color: white;
+}
+
+.button-1:hover{
+  background-color: #4CAF90;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  width:60px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  width:60px;
+}
+
+.fa-reddit {
+    background: #ff3322;
+    color: white;
+  width:60px;
+}
+
+.block{
+  display:block;
+  margin-top:20px;
+  margin-bottom:20px;
+}
